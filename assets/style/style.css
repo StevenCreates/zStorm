@@ -1,0 +1,13 @@
+.navpic {
+    height: 60px !important;
+    margin-right: 6px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.righttest {
+    position: flex !important;
+    align-content: right !important;
+}
