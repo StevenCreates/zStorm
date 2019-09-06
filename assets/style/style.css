@@ -1,13 +1,28 @@
 .navpic {
-    height: 60px !important;
-    margin-right: 6px;
+    height: 69px !important;
+    margin-left: 3%;
+    align-content: left;
+    margin-top: 16px;
+}
+
+.navpic2 {
+    height: 42px;
+    margin-left: 21px;
+    align-content: left;
+    margin-top: 16px;
 }
 
 .navbar {
-    display: flex;
+    position: relative;
+    padding-right: 2%;
 }
 
-.righttest {
-    position: flex !important;
-    align-content: right !important;
+.titlebar {
+    display: block;
+    width: 100%;
+    position: absolute;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
 }
