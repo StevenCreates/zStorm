@@ -27,8 +27,12 @@ body {
     color: #429685;
 }
 
-#greenBorder {
+#brandBorder {
     border-color: #429685;
+}
+
+#brandText {
+    color: #429685;
 }
 
 /* Animation CSS */
