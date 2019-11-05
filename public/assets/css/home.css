@@ -10,6 +10,11 @@ body {
     color: #707071;
 }
 
+/* #opacityWhite{
+    background: url(../images/opbullet.png);
+    background-repeat: repeat;
+    background-size: 12px;
+} */
 
  #introCont {
      margin-top: 15%;
@@ -33,6 +38,13 @@ body {
 
 #brandText {
     color: #429685;
+}
+
+#grayText {
+    color: #707071;
+}
+#brandBackground {
+    background: #429685;
 }
 
 /* Animation CSS */
