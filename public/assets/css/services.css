@@ -1,0 +1,89 @@
+body {
+    background: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#topBorder {
+    border-color: #429685;
+    color: #707071;
+}
+
+/* #opacityWhite{
+    background: url(../images/opbullet.png);
+    background-repeat: repeat;
+    background-size: 12px;
+} */
+
+ #introCont {
+     margin-top: 15%;
+ }
+
+ body {
+    font-family: 'Roboto', sans-serif;
+ }
+
+#ourSites {
+    background: #707071;
+}
+
+#secondContent {
+    color: #429685;
+}
+
+#brandBorder {
+    border-color: #429685;
+}
+
+#brandText {
+    color: #429685;
+}
+
+#grayText {
+    color: #707071;
+}
+#brandBackground {
+    background: #429685;
+}
+
+/* Animation CSS */
+
+#down {
+          -webkit-animation: flash linear 1s infinite;
+          animation: flash linear 1s infinite;
+      }
+      @-webkit-keyframes flash {
+          0% { opacity: 1; } 
+          50% { opacity: .1; } 
+          100% { opacity: 1; }
+      }
+      @keyframes flash {
+          0% { opacity: 1; } 
+          50% { opacity: .1; } 
+          100% { opacity: 1; }
+      }
+
+
+.flashit{
+        -webkit-animation: lightening ease-out 10s infinite;
+        -moz-animation: lightening ease-out 10s infinite;
+        animation: lightening ease-out 10s infinite;
+        animation-delay: 2s;
+    }
+    @-webkit-keyframes lightening {
+        0% { opacity: 1; } 
+        2% { opacity: 0; }
+        3% { opacity: 0.6; }
+        4% { opacity: 0.2; }
+        6% { opacity: 0.9; } 
+        100% { opacity: 1; }
+    }
+    @keyframes lightening {
+        0% { opacity: 1; } 
+        2% { opacity: 0; }
+        3% { opacity: 0.6; }
+        4% { opacity: 0.2; }
+        6% { opacity: .9; } 
+        100% { opacity: 1; }
+    }
